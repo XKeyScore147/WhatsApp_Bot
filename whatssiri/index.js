@@ -1,11 +1,11 @@
 /* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
 OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMEZ
-Telegram / @orgutsahibi
-GitHub / ErdemBey1
+Telegram / @bodrumlubebekk
+GitHub / bodrumlu48
 
-WhatsSiri SİRİ-ERDEM/BEY
+Whatsimperius İMPERIUS-BODRUMLU
 
-OWNER|ErdemBey
+OWNER|Bodrumlu
 */
 
 module.exports = {
