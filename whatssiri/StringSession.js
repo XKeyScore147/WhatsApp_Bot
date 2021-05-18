@@ -1,9 +1,9 @@
 /* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
 OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMEZ
-Telegram / @orgutsahibi
-GitHub / ErdemBey1
+Telegram / @bodrumlubebekk
+GitHub / bodrumlu48
 
-WhatsSiri SİRİ-ERDEM/BEY
+Whatsİmperius imperius-BODRUMLU
 
 OWNER|ErdemBey
 */
@@ -15,7 +15,7 @@ class StringSession {
     }
 
     deCrypt(string = undefined) {
-        if ('SIRI_SESSION' in process.env && string === undefined) {
+        if ('İMPERIUS_SESSION' in process.env && string === undefined) {
             string = process.env.STRING_SESSION;
         } else if (string !== undefined) {
             if (fs.existsSync(string)) {
@@ -30,7 +30,7 @@ class StringSession {
     }
 
     createStringSession(dict) {
-        return 'SIRI;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
+        return 'İMPERIUS;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
     }
 }
 
