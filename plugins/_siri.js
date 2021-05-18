@@ -1,11 +1,10 @@
+  
 /* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
 OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMEZ
-Telegram / @orgutsahibi
-GitHub / ErdemBey1
-
-WhatsSiri SİRİ-ERDEM/BEY
-
-OWNER|ErdemBey
+Telegram / @bodrumlubebekk
+GitHub / bodrumlu48
+Whatsİmperius imperius-BODRUMLU
+OWNER|Bodrumlu
 */
 
 const Siri = require('../events');
@@ -13,11 +12,11 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 
 const Language = require('../language');
-const Lang = Language.getString('_siri');
+const Lang = Language.getString('_imperius');
 
 if (Config.WORKTYPE == 'private') {
 
-    Siri.addCommand({pattern: 'siri ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Siri.addCommand({pattern: 'imperius ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -46,7 +45,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Siri Private Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *imperius Private Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -78,7 +77,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Siri Private Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *imperius Private Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
@@ -114,7 +113,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Siri Public Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *İmperius Public Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
@@ -146,7 +145,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *Siri Public Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'●▬▬▬ *İmperius Public Edition* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
