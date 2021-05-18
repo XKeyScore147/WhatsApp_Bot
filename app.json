@@ -1,15 +1,15 @@
 {
     "name": "WhatsSiri",
-    "description": "WhatsSiriproject - Makes it Easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "description": "Whatsİmperiusproject - Makes it Easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://gitlab.com/ErdemBey1/whatssiri/raw/master/20210406_162732.jpg",
     "keywords": ["whatsapp", "userbot", "Siri", "WhatsSiri", "bot", "api", "ai"],
     "repository": "https://github.com/phaticusthiccy/WhatsSiri",
-    "website":   "https://t.me/erdembey1",
-    "success_url": "https://t.me/SiriSupport",
+    "website":   "https://t.me/bodrumlubebekk",
+    "success_url": "https://t.me/İmperiususerbot",
     "stack": "container",
     "env": {
         "SIRI_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Siri Session.",
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours İmperius Session.",
             "required": true
         },
         "SUDO": {
