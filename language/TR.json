@@ -2,9 +2,9 @@
     "__SIRIJSON__": true,
     "LANGUAGE": "Türkçe",
     "LANGCODE": "tr",
-    "AUTHOR": "SiriDev",
+    "AUTHOR": "İmperiusDev",
     "STRINGS": { 
-        "_siri": {
+        "_imperius": {
             "COMMAND": "Komut",
             "DESC": "Açıklama",
             "EXAMPLE": "Örnek",
