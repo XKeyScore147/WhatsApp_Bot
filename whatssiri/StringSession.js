@@ -5,7 +5,7 @@ GitHub / bodrumlu48
 
 Whatsİmperius imperius-BODRUMLU
 
-OWNER|ErdemBey
+OWNER|Bodrumlu
 */
 
 const fs = require('fs');
