@@ -1,11 +1,10 @@
+  
 /* BU BOT İSTEK ÜZERİNE YAPILMIŞ BİR BOTTUR
 OLASI DURUMLARDAN BİZ SORUMLULUK KABUL ETMEZ
-Telegram / @orgutsahibi
-GitHub / ErdemBey1
-
-WhatsSiri SİRİ-ERDEM/BEY
-
-OWNER|ErdemBey
+Telegram / @bodrumlubebekk
+GitHub / bodrumlu48
+Whatsİmperius imperius-BODRUMLU
+OWNER|Bodrumlu
 */
 const {MessageType, Presence, MessageOptions} = require('@adiwajshing/baileys');
 const Base = require('./Base');
