@@ -1,7 +1,7 @@
 FROM erdembey/siriuserbot:latest
 
-RUN git clone https://github.com/ErdemBey1/WhatsSiri /root/WhatsSiri
-WORKDIR /root/WhatsSiri/
+RUN git clone https://github.com/bodrumlu/Whatimperius /root/Whatsimperius
+WORKDIR /root/Whatsİmperius/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
