@@ -30,8 +30,8 @@
 
 ### Zor Yöntem
 ```js
-git clone https://github.com/ErdemBey1/WhatsSiri.git
-cd WhatsSiri
+git clone https://github.com/ErdemBey1/Whatimperius.git
+cd Whatimperius
 npm i
 # Config.env oluşturun ve düzenleyin. #
 # node bot.js
