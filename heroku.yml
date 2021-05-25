@@ -1,5 +1,5 @@
 build: 
   docker: 
-      worker: /whatimperius/Dockerfile
+      worker: /WhatsApp_Bot/Dockerfile
 run:
    worker: npm start
