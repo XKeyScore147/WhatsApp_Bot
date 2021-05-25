@@ -1,5 +1,5 @@
 build: 
   docker: 
-      worker: /WhatsApp_Bot/Dockerfile
+      worker: /thespy0147/Dockerfile
 run:
    worker: npm start
