@@ -1,9 +1,9 @@
 {
-    "name": "Whatİmperius",
+    "name": "WhatsApp_Bot",
     "description": "Whatsİmperiusproject - Makes it Easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://gitlab.com/ErdemBey1/whatssiri/raw/master/20210406_162732.jpg",
+    "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.messengerpeople.com%2Fchatbots-what-is-a-whatsapp-bot-actually%2F&psig=AOvVaw2GR5q6FApfB_WD4zuA5hd9&ust=1622048341281000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiznoun5fACFQAAAAAdAAAAABAD",
     "keywords": ["whatsapp", "userbot", "Siri", "WhatsSiri", "bot", "api", "ai"],
-    "repository": "https://github.com/phaticusthiccy/WhatsSiri",
+    "repository": "https://github.com/XKeyScore147/WhatsApp_Bot",
     "website":   "https://t.me/bodrumlubebekk",
     "success_url": "https://t.me/İmperiususerbot",
     "stack": "container",
